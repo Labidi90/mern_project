@@ -35,7 +35,7 @@ export default function Checkout({ amount }) {
         currency="USD"
         stripeKey="pk_test_51L0btjD7y6aHzyHtwMocItRoGRKatOhgAYiks6xMvq76uQxPbPqYHL4YLZtb2MeYgyo8GxJsC6pff19sDZhPkevo00b1GGQmVk"
       >
-        <button onClick={validate} className="btn btn-dark text-light">
+        <button onClick={validate} className="btn btn-secondary text-light">
           Pay Now
         </button>
       </StripeCheckout>

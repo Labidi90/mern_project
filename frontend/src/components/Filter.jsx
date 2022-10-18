@@ -69,7 +69,7 @@ export default function Filter() {
           <div className="col-md-2 mt-2">
             <button
               value="search"
-              className="btn border border-dark btn-dark text-light"
+              className="btn border border-dark btn-primary text-light"
             >
               Search
             </button>

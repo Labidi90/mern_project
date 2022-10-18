@@ -87,14 +87,14 @@ export default function Navbar() {
               </div>
             ) : (
               <li className="nav-item">
-                <a className="nav-link btn user-btn btn-dark" href="/login">
+                <a className="nav-link btn user-btn btn-secondary" href="/login">
                   Sign in / Sign up
                 </a>
               </li>
             )}
             <li className="nav-item my-3 d-flex align-items-center">
               <a className="nav-link cart-icon" href="/cart">
-                <FontAwesomeIcon icon="fa-solid fa-cart-shopping" />
+              <i className="fas fa-shopping-cart"></i>
                 <span className="cart-qty">{cartItems.length}</span>
               </a>
             </li>
